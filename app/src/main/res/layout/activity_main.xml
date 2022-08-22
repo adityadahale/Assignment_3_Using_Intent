@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/backround_image" />
+
+
+    <Button
+        android:id="@+id/cat"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="@color/black"
+        android:text="Cat"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/dog"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/black"
+        android:text="Dog"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/parrot"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/black"
+        android:text="Parrot"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/jaguar"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/black"
+        android:text="Jaguar"
+        android:textSize="20sp" />
+
+</LinearLayout>
